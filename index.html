@@ -9,16 +9,20 @@
 	<body>
         <header>
             <h1>RockPaperScissors.js</h1>
+            <hr>
         </header>
 		<section id="main">
-            <p>Score:</p>
+            <p id="score">Score: 0</p>
             <div id="choose">
-                <div><button>R</button></div>
-                <div><button>P</button></div>
-                <div><button>S</button></div>
+                <div><button id="b1" onClick="playerChooseR()">R</button></div>
+                <div><button id="b2" onClick="playerChooseP()">P</button></div>
+                <div><button id="b3" onClick="playerChooseS()">S</button></div>
             </div>
+            <p id="randomChoose"></p>
+            <p id="final"></p>
         </section>
         <footer>
+            <hr>
             <p>Biernat 2023</p>
         </footer>
 	</body>
